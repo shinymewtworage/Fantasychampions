@@ -1,0 +1,7 @@
+export const starterPlayers=[
+ ['4046','Patrick Mahomes','KC','QB'],['6794','Jalen Hurts','PHI','QB'],['4984','Josh Allen','BUF','QB'],['7523','Justin Herbert','LAC','QB'],['6804','Joe Burrow','CIN','QB'],['11638','Jayden Daniels','WAS','QB'],['11566','Caleb Williams','CHI','QB'],['6770','Brock Purdy','SF','QB'],
+ ['9509','Bijan Robinson','ATL','RB'],['4866','Saquon Barkley','PHI','RB'],['9221','Jahmyr Gibbs','DET','RB'],['8150','Breece Hall','NYJ','RB'],['6813','Jonathan Taylor','IND','RB'],['7564','Kenneth Walker','SEA','RB'],['11635','Bucky Irving','TB','RB'],
+ ['8112','Puka Nacua','LAR','WR'],['6786','CeeDee Lamb','DAL','WR'],['9226','Jaxon Smith-Njigba','SEA','WR'],['7547','Ja’Marr Chase','CIN','WR'],['11631','Malik Nabers','NYG','WR'],['9493','Brian Thomas Jr.','JAX','WR'],['8136','Chris Olave','NO','WR'],['11633','Marvin Harrison Jr.','ARI','WR'],
+ ['11604','Brock Bowers','LV','TE'],['10859','Sam LaPorta','DET','TE'],['6803','Trey McBride','ARI','TE'],['4039','George Kittle','SF','TE'],['11587','Colston Loveland','CHI','TE']
+].map(([id,name,team,position])=>({id,name,team,position}));
+export const sampleArticles=[{id:'welcome',title:'Welcome to FantasyChampions',category:'Site News',excerpt:'Independent rankings, unapologetic opinions, and a home for dynasty and redraft strategy.',body:'This is a sample article. Sign in as the site admin to replace it with your own takes.',published:true,created_at:'2026-10-22T00:00:00Z'}];
